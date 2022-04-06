@@ -1,0 +1,194 @@
+{
+    "editor.renderWhitespace": "none",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, UseTab: Always, IndentWidth: 4, TabWidth: 4 }",
+	"editor.detectIndentation": false,
+    "C_Cpp.updateChannel": "Insiders",
+	// "window.titleBarStyle": "custom",
+	"editor.lineHeight": 0,
+	"files.associations": {
+		// This will enable html vscode autocompletion in EJS files
+		"*.ejs": "html"
+	},
+	"editor.suggestSelection": "first",
+	"kite.showWelcomeNotificationOnStartup": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"zenMode.hideLineNumbers": false,
+	"zenMode.hideStatusBar": false,
+	"vim.useCtrlKeys": false,
+	"vim.useSystemClipboard": true,
+	"vim.handleKeys": {
+		"<C-c>": false,
+		"<C-f>": false,
+		"<C-r>": true,
+		"<C-y>": false,
+		"<C-v>": false,
+		"<C-s>": false,
+		"<C-d>": false,
+		"<C-o>": true,
+		"<C-a>": true,
+		"<C-x>": true,
+		"<C-z>": true,
+		"<C-w>": false,
+		"F12" : false,
+	},
+    "vim.camelCaseMotion.enable": true,
+    "editor.lineNumbers": "on",
+    "C_Cpp.default.cppStandard": "c++17",
+	"workbench.colorCustomizations": {
+		"editor.selectionBackground": "#135564",
+		"editor.selectionHighlightBackground": "#135564",
+		"editor.selectionHighlightBorder": "#FFFA",
+		"editor.wordHighlightBorder": "#FFFA",
+		"editor.symbolHighlightBorder": "#FFFA",
+		"editor.findMatchHighlightBorder": "#FFFA",
+		// "activityBar.background": "#032503",
+		///"sideBar.background": "#232729",
+		//"editor.background": "#2E2E2E",
+		//  "editor.background": "#1D2021",
+		// "editor.background": "#2B2B2B",
+		// "editor.background": "#69a6aa",
+		////"editor.background": "#1E1F1C",
+		"editor.background": "#1D1f21",
+		// "editor.background": "#292B2E",
+		// "editor.background": "#282B34",
+		// "editor.background": "#262922",
+		// "editor.background": "#FFFFFF",
+		// "editor.background": "#1A1B26",
+		// "editor.background": "#323232",
+		///"editor.background": "#1E1E1E",
+	},
+	"editor.tokenColorCustomizations": {
+		"[Default Dark+]": {
+			"functions": {
+				"foreground": "#FABD2F",
+				"fontStyle": "bold"
+			},
+			"types": {
+				"foreground": "#90bacc",
+				// "foreground": "#EBDBB2",
+				"fontStyle": "underline"
+			},
+			"keywords": {
+				// "foreground": "#FB4934",
+				"foreground": "#4093f2",
+				// "foreground": "#FFFFFF",
+				// "fontStyle": "bold"
+				// "fontStyle": "italic"
+			},
+			"comments": {
+				"foreground": "#928374",
+			},
+			"numbers": {
+				"foreground": "#D3869B",
+			},
+			"variables": "#FFFFFF",
+			"strings": "#B8BB26",
+			"textMateRules": [{
+				"scope": "variable.other.property",
+				"settings": {
+					"foreground": "#EBDBB2"
+				}
+			},
+			{
+				"scope": "variable.parameter",
+				"settings": {
+					"foreground": "#FF9700",
+					"fontStyle": "italic"
+				}
+			}]
+		}
+	},
+	"vim.leader": "<space>",
+	"vim.searchHighlightTextColor": "yellow",
+	"vim.hlsearch": true,
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"p",
+			],
+			"after": [
+				"p",
+				"g",
+				"v",
+				"y"
+			]
+		},
+	],
+	// "vim.normalModeKeyBindings": [
+	// 	{
+	// 		"before": [
+	// 			"<C-z>",
+	// 		],
+	// 		"after": [
+	// 			"u",
+	// 		]
+	// 	}
+	// ],
+	"python.pythonPath": "/bin/python2",
+	"editor.mouseWheelZoom": true,
+	"editor.tabCompletion": "on",
+	"editor.suggest.localityBonus": false,
+	"workbench.activityBar.visible": false,
+	"vim.ignorecase": false,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.semi": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"commonlisp.lsppath": "/home/srijan/.roswell/bin/cl-lsp",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"window.menuBarVisibility": "toggle",
+	"markdown.preview.lineHeight": 1,
+	"editor.fontSize": 12,
+	"workbench.statusBar.visible": true,
+	"python.languageServer": "Pylance",
+	"git.enableSmartCommit": true,
+	"cSpell.userWords": [
+        "Eigen",
+        "Joshi",
+        "Prasad",
+        "Srijan",
+        "backpropagation"
+    ],
+	"editor.fontFamily": "'Fira Code','monospace', monospace, 'Droid Sans Fallback','Droid Sans Mono'",
+    "clangd.path": "/home/srijan/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/10.0.0/clangd_10.0.0/bin/clangd",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+	"editor.foldingHighlight": false,
+    "editor.renderLineHighlight": "none",
+	"jupyter.sendSelectionToInteractiveWindow": false,
+	"workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.largeFileOptimizations": false,
+	"jupyter.interactiveWindowMode": "perFile",
+	"python.analysis.autoImportCompletions": false,
+	// "workbench.editor.enablePreview": false,
+    "terminal.external.linuxExec": "terminator",
+    "C_Cpp.default.includePath": [
+        "/usr/include/eigen3",
+        "/opt/cuda/targets/x86_64-linux/include"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"editor.cursorStyle": "line",
+"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+"editor.wordWrap": "off",
+"notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+},
+"python.defaultInterpreterPath": "/sbin/python",
+"files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+},
+"settingsSync.keybindingsPerPlatform": false
+}
